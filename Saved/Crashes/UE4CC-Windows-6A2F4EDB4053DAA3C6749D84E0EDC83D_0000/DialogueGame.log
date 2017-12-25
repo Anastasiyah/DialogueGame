@@ -1,0 +1,536 @@
+﻿Log file open, 12/23/17 17:16:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DialogueGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-222101617) SRandInit(-222101617).
+LogInit: Read version file with build ID '2eebbf92-0bef-40cc-b209-16ba3c1a7cd1'
+LogInit: Registered custom module enumerator with build ID '2eebbf92-0bef-40cc-b209-16ba3c1a7cd1'
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.356778
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file ../../../DialogueGame/Binaries/Win64/UE4Editor-DialogueGame.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 0).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-0
+LogInit: Engine Version: 4.18.2-0+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-0+++UE4+Release-4.18
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Dec 23 2017 00:07:48
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: C:/UE4/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.23-15.16.49:562][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.23-15.16.49:570][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.23-15.16.49:757][  0]LogInit: Computer: DESKTOP-ARBLL7U
+[2017.12.23-15.16.49:757][  0]LogInit: User: Настя
+[2017.12.23-15.16.49:757][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.12.23-15.16.49:757][  0]LogInit: High frequency timer resolution =2.343749 MHz
+[2017.12.23-15.16.49:759][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2017.12.23-15.16.49:759][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.23-15.16.49:759][  0]LogMemory: Process Physical Memory: 271.00 MB used, 271.00 MB peak
+[2017.12.23-15.16.49:759][  0]LogMemory: Process Virtual Memory: 265.24 MB used, 265.24 MB peak
+[2017.12.23-15.16.49:759][  0]LogMemory: Physical Memory: 3602.38 MB used,  2437.48 MB free, 6039.86 MB total
+[2017.12.23-15.16.49:759][  0]LogMemory: Virtual Memory: 667.59 MB used,  2437.48 MB free, 134217728.00 MB total
+[2017.12.23-15.16.52:016][  0]LogInit: Using OS detected language (ru-RU).
+[2017.12.23-15.16.52:016][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.12.23-15.16.52:597][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.12.23-15.16.52:600][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.12.23-15.16.54:119][  0]LogInit: Setting process to per monitor DPI aware
+[2017.12.23-15.17.02:756][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.23-15.17.03:175][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2017.12.23-15.17.03:175][  0]LogD3D11RHI:       2019/0/3019 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.23-15.17.03:184][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.12.23-15.17.03:184][  0]LogD3D11RHI:       128/0/3019 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.23-15.17.03:187][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.23-15.17.03:187][  0]LogD3D11RHI:       0/0/3019 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.23-15.17.03:187][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.23-15.17.03:192][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.23-15.17.03:196][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.23-15.17.03:196][  0]LogWindows: EnumDisplayDevices:
+[2017.12.23-15.17.03:196][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.12.23-15.17.03:196][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.12.23-15.17.03:196][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.12.23-15.17.03:196][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.23-15.17.03:196][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2017.12.23-15.17.03:196][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.23-15.17.03:196][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.23-15.17.03:196][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2017.12.23-15.17.03:257][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.23-15.17.03:513][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.23-15.17.03:615][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (../../../DialogueGame/Intermediate/Shaders/WorkingDirectory/4992/).
+[2017.12.23-15.17.03:616][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Настя/AppData/Local/Temp/UnrealShaderWorkingDir/B3109CAC4B2BF175793B6EA7661BC83C/'.
+[2017.12.23-15.17.03:618][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.23-15.17.11:088][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.23-15.17.11:180][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.23-15.17.11:230][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.23-15.17.11:280][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.23-15.17.11:351][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.23-15.17.11:405][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.23-15.17.11:455][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.23-15.17.11:504][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.23-15.17.11:548][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.23-15.17.11:596][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.23-15.17.11:644][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.23-15.17.11:691][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.23-15.17.11:739][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.23-15.17.11:787][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.23-15.17.11:882][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.23-15.17.11:882][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.23-15.17.11:983][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.23-15.17.12:065][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.23-15.17.12:211][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.23-15.17.12:240][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.23-15.17.12:240][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.23-15.17.14:432][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.23-15.17.15:971][  0]LogDerivedDataCache: Loaded boot cache 1.54s 86MB ../../../DialogueGame/DerivedDataCache/Boot.ddc.
+[2017.12.23-15.17.15:971][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../DialogueGame/DerivedDataCache/Boot.ddc
+[2017.12.23-15.17.15:971][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../DialogueGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.23-15.17.15:971][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.23-15.17.15:971][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.23-15.17.15:971][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2017.12.23-15.17.15:985][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2017.12.23-15.17.15:985][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2017.12.23-15.17.15:985][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2017.12.23-15.17.16:016][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.23-15.17.16:072][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.23-15.17.16:250][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.23-15.17.16:251][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.23-15.17.33:732][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.23-15.17.35:946][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.23-15.17.35:946][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.23-15.17.35:946][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.23-15.17.35:946][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2017.12.23-15.17.35:946][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.23-15.17.35:946][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2017.12.23-15.17.36:478][  0]LogNetVersion: DialogueGame , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2771905676)
+[2017.12.23-15.17.38:795][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2017.12.23-15.17.48:990][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.167209 seconds
+[2017.12.23-15.17.48:999][  0]LogUObjectArray: 35856 objects as part of root set at end of initial load.
+[2017.12.23-15.17.48:999][  0]LogUObjectAllocator: 7364808 out of 0 bytes used by permanent object pool.
+[2017.12.23-15.17.48:999][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.23-15.17.49:103][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.23-15.18.10:802][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2017.12.23-15.18.10:802][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2017.12.23-15.18.10:802][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2017.12.23-15.18.10:802][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2017.12.23-15.18.10:802][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2017.12.23-15.18.10:803][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2017.12.23-15.18.10:803][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2017.12.23-15.18.10:803][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2017.12.23-15.18.10:803][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2017.12.23-15.18.10:803][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2017.12.23-15.18.10:803][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2017.12.23-15.18.10:803][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2017.12.23-15.18.10:803][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2017.12.23-15.18.10:803][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2017.12.23-15.18.10:804][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2017.12.23-15.18.10:804][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2017.12.23-15.18.10:804][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2017.12.23-15.18.10:804][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2017.12.23-15.18.10:804][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2017.12.23-15.18.10:804][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2017.12.23-15.18.10:804][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2017.12.23-15.18.10:804][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2017.12.23-15.18.10:805][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2017.12.23-15.18.10:805][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2017.12.23-15.18.10:805][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2017.12.23-15.18.10:805][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2017.12.23-15.18.10:805][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2017.12.23-15.18.10:805][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2017.12.23-15.18.10:805][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2017.12.23-15.18.10:805][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2017.12.23-15.18.10:805][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2017.12.23-15.18.10:806][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2017.12.23-15.18.10:806][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2017.12.23-15.18.10:806][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2017.12.23-15.18.10:806][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2017.12.23-15.18.10:806][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2017.12.23-15.18.10:806][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2017.12.23-15.18.10:806][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2017.12.23-15.18.10:806][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2017.12.23-15.18.10:806][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2017.12.23-15.18.10:807][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2017.12.23-15.18.10:807][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2017.12.23-15.18.10:807][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2017.12.23-15.18.10:807][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2017.12.23-15.18.10:807][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2017.12.23-15.18.10:807][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2017.12.23-15.18.10:807][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2017.12.23-15.18.10:807][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2017.12.23-15.18.10:821][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2017.12.23-15.18.10:821][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2017.12.23-15.18.10:821][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:821][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:821][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:821][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:822][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2017.12.23-15.18.10:822][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2017.12.23-15.18.10:822][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:822][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:822][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:822][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:822][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2017.12.23-15.18.10:822][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2017.12.23-15.18.10:823][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:823][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:823][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:823][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:823][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2017.12.23-15.18.10:823][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2017.12.23-15.18.10:823][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:823][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:823][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:824][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:824][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2017.12.23-15.18.10:824][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2017.12.23-15.18.10:824][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:824][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:824][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:824][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:824][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2017.12.23-15.18.10:825][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2017.12.23-15.18.10:825][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:825][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:825][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:825][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:825][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2017.12.23-15.18.10:825][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2017.12.23-15.18.10:825][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:826][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:826][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:826][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:826][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2017.12.23-15.18.10:826][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2017.12.23-15.18.10:826][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:826][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.10:826][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2017.12.23-15.18.10:826][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2017.12.23-15.18.23:264][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.23-15.18.23:456][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.23-15.18.28:392][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.23-15.18.29:681][  0]SourceControl: Source control is disabled
+[2017.12.23-15.18.29:681][  0]SourceControl: Source control is disabled
+[2017.12.23-15.18.29:860][  0]SourceControl: Source control is disabled
+[2017.12.23-15.18.30:030][  0]SourceControl: Source control is disabled
+[2017.12.23-15.18.32:828][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.23-15.18.33:206][  0]LogOcInput: OculusInput pre-init called
+[2017.12.23-15.18.34:387][  0]LogEngine: Initializing Engine...
+[2017.12.23-15.18.34:452][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.23-15.18.35:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.23-15.18.35:705][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.23-15.18.36:190][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.23-15.18.36:225][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-15.18.36:505][  0]LogInit: FAudioDevice initialized.
+[2017.12.23-15.18.36:660][  0]LogDerivedDataCache: Saved boot cache 0.15s 79MB ../../../DialogueGame/DerivedDataCache/Boot.ddc.
+[2017.12.23-15.18.36:680][  0]LogInit: Texture streaming: Enabled
+[2017.12.23-15.18.37:035][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.23-15.18.37:036][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={229AB73F-4CB5-3636-B1D6-9FAAA700D4AD}
+[2017.12.23-15.18.37:668][  0]LogInit: Transaction tracking system initialized
+[2017.12.23-15.18.40:006][  0]BlueprintLog: New page: Editor Load
+[2017.12.23-15.18.46:205][  0]LocalizationService: Localization service is disabled
+[2017.12.23-15.18.49:034][  0]LogConsoleResponse: Display: 
+[2017.12.23-15.18.54:030][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/DialogueGame/Content/' took 0.11s
+[2017.12.23-15.18.54:031][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.23-15.18.54:051][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.23-15.18.54:126][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.23-15.19.03:890][  0]SourceControl: Source control is disabled
+[2017.12.23-15.19.04:429][  0]LogSlate: Took 0.096052 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.23-16.04.46:125][  0]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.12.23-16.04.46:947][  0]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.12.23-16.04.48:936][  0]Cmd: MAP LOAD FILE="../../../DialogueGame/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.23-16.04.49:017][  0]LightingResults: New page: Lighting Build
+[2017.12.23-16.04.49:265][  0]MapCheck: New page: Map Check
+[2017.12.23-16.04.49:266][  0]LightingResults: New page: Lighting Build
+[2017.12.23-16.04.53:218][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.12.23-16.04.53:876][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.23-16.04.54:114][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.23-16.04.54:421][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 306.889ms to complete.
+[2017.12.23-16.04.54:422][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.519
+[2017.12.23-16.04.58:025][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_ec4_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_26b0_0///####STATCAT_Advanced####
+[2017.12.23-16.04.58:026][  0]LogCollectionManager: Loaded 0 collections in 0.005070 seconds
+[2017.12.23-16.04.58:792][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/DialogueGame/Saved/Collections/' took 0.01s
+[2017.12.23-16.04.58:792][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/DialogueGame/Content/Developers/Настя/Collections/' took 0.01s
+[2017.12.23-16.04.58:792][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/DialogueGame/Content/Collections/' took 0.01s
+[2017.12.23-16.04.58:792][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.23-16.04.59:041][  0]LogContentBrowser: Native class hierarchy populated in 0.1572 seconds. Added 2364 classes and 519 folders.
+[2017.12.23-16.04.59:402][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.12.23-16.05.07:065][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0026 seconds. Added 0 classes and 0 folders.
+[2017.12.23-16.05.07:227][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.12.23-16.05.07:711][  0]LogSlate: Took 0.029272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.23-16.05.07:781][  0]LogSlate: Took 0.037972 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.23-16.05.09:536][  0]LogRenderer: Reallocating scene render targets to support 756x372 Format 10 NumSamples 1 (Frame:1).
+[2017.12.23-16.05.10:761][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.12.23-16.05.10:761][  0]LogLoad: (Engine Initialization) Total time: 2917.64 seconds
+[2017.12.23-16.05.10:761][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.23-16.05.10:778][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.23-16.05.11:270][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.23-16.05.11:769][  1]LogSlate: Took 0.024995 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.23-16.05.12:352][  3]LogSlate: Took 0.000993 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.23-16.05.13:018][  5]LogAssetRegistry: Asset discovery search completed in 2854.2461 seconds
+[2017.12.23-16.05.13:043][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.23-16.05.13:066][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.023497 seconds (updated 0 objects)
+[2017.12.23-16.06.40:106][206]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.23-16.06.40:972][206]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.23-16.06.42:108][206]LogAIModule: Creating AISystem for world DialogueGame_P
+[2017.12.23-16.06.42:140][206]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Water_Ocean.M_Water_Ocean needed to have new flag set bUsedWithSkeletalMesh !
+[2017.12.23-16.06.42:182][206]LogMaterial: Missing cached shader map for material M_Water_Ocean, compiling. 
+[2017.12.23-16.06.42:609][206]MapCheck: Warning: M_Water_Ocean Material /Game/StarterContent/Materials/M_Water_Ocean.M_Water_Ocean was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.23-16.06.42:727][206]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Tech_Panel.M_Tech_Panel needed to have new flag set bUsedWithSkeletalMesh !
+[2017.12.23-16.06.42:748][206]LogMaterial: Missing cached shader map for material M_Tech_Panel, compiling. 
+[2017.12.23-16.06.42:845][206]MapCheck: Warning: M_Tech_Panel Material /Game/StarterContent/Materials/M_Tech_Panel.M_Tech_Panel was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.12.23-16.06.42:987][206]Cmd: MAP LOAD FILE="../../../DialogueGame/Content/DialogueGame_Main/Maps/DialogueGame_P.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.23-16.06.42:987][206]LightingResults: New page: Lighting Build
+[2017.12.23-16.06.42:991][206]LoadErrors: New page: Loading map: DialogueGame_P.umap
+[2017.12.23-16.06.42:995][206]MapCheck: New page: Map Check
+[2017.12.23-16.06.42:995][206]LightingResults: New page: Lighting Build
+[2017.12.23-16.06.43:175][206]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.23-16.06.43:332][206]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.23-16.06.43:551][206]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 218.242ms to complete.
+[2017.12.23-16.06.43:552][206]LogFileHelpers: Loading map 'DialogueGame_P' took 0.626
+[2017.12.23-16.07.08:327][253]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 116 classes and 0 folders.
+[2017.12.23-16.07.10:363][253]LogSlate: Took 0.027433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.23-16.07.18:321][627]LogSlate: Took 0.040422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.23-16.07.47:331][163]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.23-16.07.47:494][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P:PersistentLevel' has LevelScriptBlueprint '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P:PersistentLevel.DialogueGame_P' with GeneratedClass '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P_C' with ClassGeneratedBy '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P:PersistentLevel.DialogueGame_P'
+[2017.12.23-16.07.47:494][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.23-16.07.47:573][163]PIE: New page: PIE session: DialogueGame_P (Dec 23, 2017, 8:07:47 PM)
+[2017.12.23-16.07.47:574][163]LogPlayLevel: Creating play world package: /Game/DialogueGame_Main/Maps/UEDPIE_0_DialogueGame_P
+[2017.12.23-16.07.47:603][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029583s)
+[2017.12.23-16.07.47:608][163]LogAIModule: Creating AISystem for world DialogueGame_P
+[2017.12.23-16.07.47:610][163]LogPlayLevel: PIE: World Init took: (0.006360s)
+[2017.12.23-16.07.47:611][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P to /Game/DialogueGame_Main/Maps/UEDPIE_0_DialogueGame_P.DialogueGame_P (0.037530s)
+[2017.12.23-16.07.47:680][163]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-16.07.47:696][163]LogInit: FAudioDevice initialized.
+[2017.12.23-16.07.47:742][163]LogLoad: Game class is 'DialogueGameGameMode'
+[2017.12.23-16.07.47:744][163]LogWorld: Bringing World /Game/DialogueGame_Main/Maps/UEDPIE_0_DialogueGame_P.DialogueGame_P up for play (max tick rate 60) at 2017.12.23-18.07.47
+[2017.12.23-16.07.47:745][163]LogWorld: Bringing up level for play took: 0.002081
+[2017.12.23-16.07.47:855][163]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2017.12.23-16.07.47:858][163]PIE: Play in editor start time for /Game/DialogueGame_Main/Maps/UEDPIE_0_DialogueGame_P 0.722
+[2017.12.23-16.07.47:858][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P:PersistentLevel' has LevelScriptBlueprint '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P:PersistentLevel.DialogueGame_P' with GeneratedClass '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P_C' with ClassGeneratedBy '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P:PersistentLevel.DialogueGame_P'
+[2017.12.23-16.07.59:143][819]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P:PersistentLevel' has LevelScriptBlueprint '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P:PersistentLevel.DialogueGame_P' with GeneratedClass '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P_C' with ClassGeneratedBy '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P:PersistentLevel.DialogueGame_P'
+[2017.12.23-16.07.59:186][819]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P:PersistentLevel' has LevelScriptBlueprint '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P:PersistentLevel.DialogueGame_P' with GeneratedClass '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P_C' with ClassGeneratedBy '/Game/DialogueGame_Main/Maps/DialogueGame_P.DialogueGame_P:PersistentLevel.DialogueGame_P'
+[2017.12.23-16.11.35:366][107]LogStats: FPlatformStackWalk::StackWalkAndDump - 177.280 s
+[2017.12.23-16.11.35:650][107]LogOutputDevice: Error: === Handled ensure: ===
+[2017.12.23-16.11.35:663][107]LogOutputDevice: Error: 
+[2017.12.23-16.11.35:664][107]LogOutputDevice: Error: Ensure condition failed: !PreviewSlateWidgetWeak.IsValid() [File:C:\UE4\Engine\Source\Editor\UMGEditor\Private\WidgetBlueprintEditor.cpp] [Line: 787]
+[2017.12.23-16.11.35:664][107]LogOutputDevice: Error: 
+[2017.12.23-16.11.35:664][107]LogOutputDevice: Error: Stack: 
+[2017.12.23-16.11.35:664][107]LogOutputDevice: Error: [Callstack] 0x000000008EC02436 UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [c:\ue4\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.12.23-16.11.35:679][107]LogOutputDevice: Error: [Callstack] 0x000000008E9A206A UE4Editor-Core.dll!FDebug::EnsureFailed() [c:\ue4\engine\source\runtime\core\private\misc\assertionmacros.cpp:298]
+[2017.12.23-16.11.35:679][107]LogOutputDevice: Error: [Callstack] 0x000000008E9BBAD6 UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [c:\ue4\engine\source\runtime\core\private\misc\assertionmacros.cpp:425]
+[2017.12.23-16.11.35:694][107]LogOutputDevice: Error: [Callstack] 0x000000007BA33A70 UE4Editor-UMGEditor.dll!FWidgetBlueprintEditor::DestroyPreview() [c:\ue4\engine\source\editor\umgeditor\private\widgetblueprinteditor.cpp:787]
+[2017.12.23-16.11.35:694][107]LogOutputDevice: Error: [Callstack] 0x000000007BAA014E UE4Editor-UMGEditor.dll!FWidgetBlueprintEditor::OnBlueprintChangedImpl() [c:\ue4\engine\source\editor\umgeditor\private\widgetblueprinteditor.cpp:304]
+[2017.12.23-16.11.35:694][107]LogOutputDevice: Error: [Callstack] 0x000000007EE70B8C UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(UBlueprint * __ptr64)>::Execute() [c:\ue4\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.12.23-16.11.35:694][107]LogOutputDevice: Error: [Callstack] 0x000000007EE7588C UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(UBlueprint * __ptr64)>::ExecuteIfSafe() [c:\ue4\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:434]
+[2017.12.23-16.11.35:695][107]LogOutputDevice: Error: [Callstack] 0x0000000074BFD297 UE4Editor-Engine.dll!TBaseMulticastDelegate<void,UBlueprint * __ptr64>::Broadcast() [c:\ue4\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:937]
+[2017.12.23-16.11.35:695][107]LogOutputDevice: Error: [Callstack] 0x000000007D2115EF UE4Editor-UnrealEd.dll!FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified() [c:\ue4\engine\source\editor\unrealed\private\kismet2\blueprinteditorutils.cpp:2110]
+[2017.12.23-16.11.35:695][107]LogOutputDevice: Error: [Callstack] 0x000000007BADF182 UE4Editor-UMGEditor.dll!FWidgetBlueprintEditorUtils::RenameWidget() [c:\ue4\engine\source\editor\umgeditor\private\widgetblueprinteditorutils.cpp:259]
+[2017.12.23-16.11.35:695][107]LogOutputDevice: Error: [Callstack] 0x000000007BA7F934 UE4Editor-UMGEditor.dll!SWidgetDetailsView::HandleNameTextCommitted() [c:\ue4\engine\source\editor\umgeditor\private\details\swidgetdetailsview.cpp:448]
+[2017.12.23-16.11.35:695][107]LogOutputDevice: Error: [Callstack] 0x000000007BA42017 UE4Editor-UMGEditor.dll!TBaseSPMethodDelegateInstance<0,SWidgetDetailsView,0,TTypeWrapper<void> __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::Execute() [c:\ue4\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.12.23-16.11.35:695][107]LogOutputDevice: Error: [Callstack] 0x000000007BA46207 UE4Editor-UMGEditor.dll!TBaseSPMethodDelegateInstance<0,SWidgetDetailsView,0,void __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::ExecuteIfSafe() [c:\ue4\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:434]
+[2017.12.23-16.11.35:717][107]LogOutputDevice: Error: [Callstack] 0x000000008B4D5615 UE4Editor-Slate.dll!FSlateEditableTextLayout::HandleFocusLost() [c:\ue4\engine\source\runtime\slate\private\widgets\text\slateeditabletextlayout.cpp:783]
+[2017.12.23-16.11.35:717][107]LogOutputDevice: Error: [Callstack] 0x000000008B2EDABA UE4Editor-Slate.dll!FSlateApplication::SetUserFocus() [c:\ue4\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:2811]
+[2017.12.23-16.11.35:717][107]LogOutputDevice: Error: [Callstack] 0x000000008B28A5A4 UE4Editor-Slate.dll!FSlateApplication::ClearKeyboardFocus() [c:\ue4\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:2572]
+[2017.12.23-16.11.35:717][107]LogOutputDevice: Error: [Callstack] 0x000000007B9FB4DC UE4Editor-UMGEditor.dll!SWidgetDetailsView::ClearFocusIfOwned() [c:\ue4\engine\source\editor\umgeditor\private\details\swidgetdetailsview.cpp:291]
+[2017.12.23-16.11.35:717][107]LogOutputDevice: Error: [Callstack] 0x000000007BAA66B2 UE4Editor-UMGEditor.dll!SWidgetDetailsView::OnEditorSelectionChanging() [c:\ue4\engine\source\editor\umgeditor\private\details\swidgetdetailsview.cpp:211]
+[2017.12.23-16.11.35:717][107]LogOutputDevice: Error: [Callstack] 0x000000007BA437D6 UE4Editor-UMGEditor.dll!TBaseRawMethodDelegateInstance<0,SWidgetDetailsView,void __cdecl(void)>::ExecuteIfSafe() [c:\ue4\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:648]
+[2017.12.23-16.11.35:717][107]LogOutputDevice: Error: [Callstack] 0x000000007B9F12E5 UE4Editor-UMGEditor.dll!TBaseMulticastDelegate<void>::Broadcast() [c:\ue4\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:937]
+[2017.12.23-16.11.35:717][107]LogOutputDevice: Error: [Callstack] 0x000000007BAEA57D UE4Editor-UMGEditor.dll!FWidgetBlueprintEditor::SelectWidgets() [c:\ue4\engine\source\editor\umgeditor\private\widgetblueprinteditor.cpp:193]
+[2017.12.23-16.11.35:717][107]LogOutputDevice: Error: [Callstack] 0x000000007BAE6FE9 UE4Editor-UMGEditor.dll!SDesignerView::ResolvePendingSelectedWidgets() [c:\ue4\engine\source\editor\umgeditor\private\designer\sdesignerview.cpp:1551]
+[2017.12.23-16.11.35:718][107]LogOutputDevice: Error: [Callstack] 0x000000007BAB2ADE UE4Editor-UMGEditor.dll!SDesignerView::OnMouseButtonDown() [c:\ue4\engine\source\editor\umgeditor\private\designer\sdesignerview.cpp:1596]
+[2017.12.23-16.11.35:718][107]LogOutputDevice: Error: [Callstack] 0x000000008B277316 UE4Editor-Slate.dll!<lambda_7097b900f0e4be30d80fb18f98c51ea0>::operator()() [c:\ue4\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5171]
+[2017.12.23-16.11.35:718][107]LogOutputDevice: Error: [Callstack] 0x000000008B247A2C UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FPointerEvent,<lambda_7097b900f0e4be30d80fb18f98c51ea0> >() [c:\ue4\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:234]
+[2017.12.23-16.11.35:718][107]LogOutputDevice: Error: [Callstack] 0x000000008B2E5B07 UE4Editor-Slate.dll!FSlateApplication::RoutePointerDownEvent() [c:\ue4\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5160]
+[2017.12.23-16.11.35:718][107]LogOutputDevice: Error: [Callstack] 0x000000008B2CEF22 UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonDownEvent() [c:\ue4\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5113]
+[2017.12.23-16.11.35:718][107]LogOutputDevice: Error: [Callstack] 0x000000008B2C1093 UE4Editor-Slate.dll!FSlateApplication::OnMouseDown() [c:\ue4\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5031]
+[2017.12.23-16.11.35:719][107]LogOutputDevice: Error: [Callstack] 0x00000000A309E5EE UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [c:\ue4\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1733]
+[2017.12.23-16.11.35:719][107]LogOutputDevice: Error: [Callstack] 0x00000000A3091A48 UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [c:\ue4\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2171]
+[2017.12.23-16.11.35:719][107]LogOutputDevice: Error: [Callstack] 0x00000000A30A03EC UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [c:\ue4\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:888]
+[2017.12.23-16.11.35:719][107]LogOutputDevice: Error: [Callstack] 0x00000000A308D5A9 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [c:\ue4\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:725]
+[2017.12.23-16.11.35:719][107]LogOutputDevice: Error: [Callstack] 0x00000000B98FB85D USER32.dll!UnknownFunction []
+[2017.12.23-16.11.35:719][107]LogOutputDevice: Error: [Callstack] 0x00000000B98FB1EF USER32.dll!UnknownFunction []
+[2017.12.23-16.11.35:719][107]LogOutputDevice: Error: [Callstack] 0x00000000A30A1516 UE4Editor-ApplicationCore.dll!FWindowsPlatformApplicationMisc::PumpMessages() [c:\ue4\engine\source\runtime\applicationcore\private\windows\windowsplatformapplicationmisc.cpp:129]
+[2017.12.23-16.11.35:719][107]LogOutputDevice: Error: [Callstack] 0x000000003B7850C8 UE4Editor.exe!FEngineLoop::Tick() [c:\ue4\engine\source\runtime\launch\private\launchengineloop.cpp:3220]
+[2017.12.23-16.11.35:719][107]LogOutputDevice: Error: [Callstack] 0x000000003B795430 UE4Editor.exe!GuardedMain() [c:\ue4\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.12.23-16.11.35:719][107]LogOutputDevice: Error: [Callstack] 0x000000003B7954AA UE4Editor.exe!GuardedMainWrapper() [c:\ue4\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.12.23-16.11.35:719][107]LogOutputDevice: Error: [Callstack] 0x000000003B7A2379 UE4Editor.exe!WinMain() [c:\ue4\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.12.23-16.11.35:720][107]LogOutputDevice: Error: [Callstack] 0x000000003B7A3D57 UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.12.23-16.11.35:720][107]LogOutputDevice: Error: [Callstack] 0x00000000B9451FE4 KERNEL32.DLL!UnknownFunction []
+[2017.12.23-16.11.35:731][107]LogOutputDevice: Error: [Callstack] 0x00000000B9C7EF91 ntdll.dll!UnknownFunction []
+[2017.12.23-16.11.35:731][107]LogOutputDevice: Error: 
+[2017.12.23-16.11.35:780][107]LogStats:                SubmitErrorReport -  0.024 s

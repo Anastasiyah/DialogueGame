@@ -1,0 +1,3 @@
+C:\UE4\DialogueGame\Source\DialogueGame\DialogueGame.Build.cs
+C:\UE4\DialogueGame\Source\DialogueGame.Target.cs
+C:\UE4\DialogueGame\Source\DialogueGameEditor.Target.cs
