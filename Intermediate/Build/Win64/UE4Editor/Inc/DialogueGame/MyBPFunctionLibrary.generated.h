@@ -8,34 +8,37 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UObject;
 #ifdef DIALOGUEGAME_MyBPFunctionLibrary_generated_h
 #error "MyBPFunctionLibrary.generated.h already included, missing '#pragma once' in MyBPFunctionLibrary.h"
 #endif
 #define DIALOGUEGAME_MyBPFunctionLibrary_generated_h
 
-#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_RPC_WRAPPERS \
+#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execExitDialogue) \
 	{ \
+		P_GET_OBJECT(UObject,Z_Param_WorldContextObject); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		UMyBPFunctionLibrary::ExitDialogue(); \
+		UMyBPFunctionLibrary::ExitDialogue(Z_Param_WorldContextObject); \
 		P_NATIVE_END; \
 	}
 
 
-#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execExitDialogue) \
 	{ \
+		P_GET_OBJECT(UObject,Z_Param_WorldContextObject); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		UMyBPFunctionLibrary::ExitDialogue(); \
+		UMyBPFunctionLibrary::ExitDialogue(Z_Param_WorldContextObject); \
 		P_NATIVE_END; \
 	}
 
 
-#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_INCLASS_NO_PURE_DECLS \
+#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyBPFunctionLibrary(); \
 	friend DIALOGUEGAME_API class UClass* Z_Construct_UClass_UMyBPFunctionLibrary(); \
@@ -45,7 +48,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_INCLASS \
+#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_INCLASS \
 private: \
 	static void StaticRegisterNativesUMyBPFunctionLibrary(); \
 	friend DIALOGUEGAME_API class UClass* Z_Construct_UClass_UMyBPFunctionLibrary(); \
@@ -55,7 +58,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_STANDARD_CONSTRUCTORS \
+#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyBPFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyBPFunctionLibrary) \
@@ -68,7 +71,7 @@ private: \
 public:
 
 
-#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_ENHANCED_CONSTRUCTORS \
+#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyBPFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -81,26 +84,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyBPFunctionLibrary); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyBPFunctionLibrary)
 
 
-#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_PRIVATE_PROPERTY_OFFSET
-#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_12_PROLOG
-#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_GENERATED_BODY_LEGACY \
+#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_PRIVATE_PROPERTY_OFFSET
+#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_19_PROLOG
+#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_PRIVATE_PROPERTY_OFFSET \
-	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_RPC_WRAPPERS \
-	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_INCLASS \
-	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_STANDARD_CONSTRUCTORS \
+	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_PRIVATE_PROPERTY_OFFSET \
+	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_RPC_WRAPPERS \
+	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_INCLASS \
+	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_GENERATED_BODY \
+#define DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_PRIVATE_PROPERTY_OFFSET \
-	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_INCLASS_NO_PURE_DECLS \
-	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_15_ENHANCED_CONSTRUCTORS \
+	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_PRIVATE_PROPERTY_OFFSET \
+	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_INCLASS_NO_PURE_DECLS \
+	DialogueGame_Source_DialogueGame_MyBPFunctionLibrary_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

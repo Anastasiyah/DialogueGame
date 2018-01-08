@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeMyBPFunctionLibrary() {}
 	ENGINE_API UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
 	UPackage* Z_Construct_UPackage__Script_DialogueGame();
 	DIALOGUEGAME_API UFunction* Z_Construct_UFunction_UMyBPFunctionLibrary_ExitDialogue();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 // End Cross Module References
 	void UMyBPFunctionLibrary::StaticRegisterNativesUMyBPFunctionLibrary()
 	{
@@ -29,16 +30,25 @@ void EmptyLinkFunctionForGeneratedCodeMyBPFunctionLibrary() {}
 	}
 	UFunction* Z_Construct_UFunction_UMyBPFunctionLibrary_ExitDialogue()
 	{
+		struct MyBPFunctionLibrary_eventExitDialogue_Parms
+		{
+			UObject* WorldContextObject;
+		};
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_WorldContextObject = { UE4CodeGen_Private::EPropertyClass::Object, "WorldContextObject", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(MyBPFunctionLibrary_eventExitDialogue_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_WorldContextObject,
+			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "Category", "My Functions" },
 				{ "ModuleRelativePath", "MyBPFunctionLibrary.h" },
+				{ "WorldContext", "WorldContextObject" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyBPFunctionLibrary, "ExitDialogue", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04022401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyBPFunctionLibrary, "ExitDialogue", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04022401, sizeof(MyBPFunctionLibrary_eventExitDialogue_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
 		}
 		return ReturnFunction;
@@ -57,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeMyBPFunctionLibrary() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_DialogueGame,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
-				{ &Z_Construct_UFunction_UMyBPFunctionLibrary_ExitDialogue, "ExitDialogue" }, // 2459864251
+				{ &Z_Construct_UFunction_UMyBPFunctionLibrary_ExitDialogue, "ExitDialogue" }, // 3757181177
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -83,7 +93,7 @@ void EmptyLinkFunctionForGeneratedCodeMyBPFunctionLibrary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyBPFunctionLibrary, 2214411913);
+	IMPLEMENT_CLASS(UMyBPFunctionLibrary, 2323819618);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UMyBPFunctionLibrary(Z_Construct_UClass_UMyBPFunctionLibrary, &UMyBPFunctionLibrary::StaticClass, TEXT("/Script/DialogueGame"), TEXT("UMyBPFunctionLibrary"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UMyBPFunctionLibrary);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
